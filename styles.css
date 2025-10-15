@@ -1,57 +1,60 @@
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            background-color: #f5f5f5;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 50px 20px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 3em;
-        }
-        header p {
-            font-size: 1.2em;
-        }
-        main {
-            padding: 50px 20px;
-        }
-        .cta-button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px 30px;
-            font-size: 1.2em;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-        .cta-button:hover {
-            background-color: #45a049;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-        }
 
-        .big {
-            display: flex;
-            flex-direction: column-reverse;
-            position:absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
-        }
 
-        .WIP{
-            background-color: blue;
-            width: fit-content;
-            padding: 20px;
-            margin: 20px;
-        }
+.wip-container {
+    display: flex;
+    flex-direction: column-reverse;
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.wip-box{
+    background-color: beige;
+    width: fit-content;
+    padding: 40px;           
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    filter: drop-shadow(0px 15px 4px #a9a8a7);
+    z-index: 1000;
+}
+
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;;
+}
+
+
+.side,
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+
+.side {
+  flex: 0.5; 
+  background-color: #F2F0EF;
+}
+
+
+.center {
+  flex: 2; 
+  background-color: beige; 
+  filter: drop-shadow(0px 15px 4px #a9a8a7);
+
+}
