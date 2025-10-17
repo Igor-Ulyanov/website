@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <meta name="robots" content="noindex, nofollow">
+    <script src="js/initialize.js"></script>
 </head>
 <body>
     <main>
-
     <div class="container">
         <div class="side left">
+            <div class="bg">
+                <img src="images/bg.png" alt="background">
+            </div>
             <div class="wip-container">   
                 <div class="wip-box">
                     <img src="images/wip.png" alt="weep" width="200" height="200">
@@ -18,16 +21,16 @@
             </div>
         </div>
         <div class="center">
-            <p id="dontsueme">THIS IS A FAN PROJECT HEHE DONT SUE ME INTO THE GROUND PLEASE :D</p>
+            <p id="dontsueme">THIS IS A FAN PROJECT DONT SUE ME INTO THE GROUND PLEASE :D</p>
             <div class="logo-div">
-                <img src="images/logo.png" alt="logo">
+                <img id="logo" src="images/logo.png" alt="logo">
             </div>
             <div class="buttons">
                 <div id="daily">
                     <button> Play Daily! </button>
                 </div>
                 <div id="random">
-                    <button> Play Random! </button>
+                    <button onclick="initialize()"> Play Random! </button>
                 </div>
             </div>
         </div>

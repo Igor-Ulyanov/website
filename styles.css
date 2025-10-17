@@ -21,14 +21,14 @@ html, body {
 }
 
 .wip-box{
-    background-color: beige;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px 3px #FFFFFF;
     width: fit-content;
     padding: 40px;           
     margin: 20px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    filter: drop-shadow(0px 15px 4px #a9a8a7);
     z-index: 1000;
 }
 
@@ -43,7 +43,6 @@ html, body {
 .side,
 .center {
   display: flex;
-  justify-content: center;
   align-items: center;
   font-size: 1.5rem;
   color: white;
@@ -58,38 +57,93 @@ html, body {
 
 .center {
   flex: 2; 
-  background-color: beige; 
-  filter: drop-shadow(0px 15px 4px #a9a8a7);
+  background: rgba(0, 0, 0, 0.55);
+  box-shadow: 0 0 150px 15px #000000;
   display: flex;
   flex-direction: column;
+  z-index: 2;
 }
 
 .buttons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+
+.buttons button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #75C5FF;
+  color: white;
+  border: 3px solid #FFFFFF;
+  filter: drop-shadow(0px 4px 3px #a9a8a7);
+  font-size: 17px;
+}
+
+@keyframes buttonHover {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  animation: buttonHover 0.2s forwards;
+}
+
+
 .buttons #daily button {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  padding-left: 30px; 
+  padding-right: 30px;
+
 }
 
 
 .buttons #random button {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+@keyframes logoanim{
+  25% {transform: rotate(-4deg);}
+  50% {transform: rotate(0deg);}
+  75% {transform: rotate(4deg);}
+  100% {transform: rotate(0deg);}
+}
+
+#logo{
+  animation: logoanim 3s infinite;
 }
 
 
 
+@keyframes funnyspin{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.wip-box img{
+  animation: funnyspin 3s infinite;
+}
+
+.bg img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  filter: brightness(40%);
+  object-fit: cover;
+}
 
 
