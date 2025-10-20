@@ -1,0 +1,168 @@
+{
+ "characters":[
+    {
+        "pompompurin": ["Male", "Pompompurin", "Dog", 4.16, 1996, ["Brown", "Yellow"]],
+        "DN" : "Pompompurin"
+    },
+    {
+        "muffin": ["Male", "Pompompurin", "Hamster", 9.16, 1997, ["Brown", "White"]],
+        "DN" : "Muffin"
+    },
+    {
+        "scone": ["Male", "Pompompurin", "Mouse", 2.16, 1998, ["Yellow"]],
+        "DN" : "Scone"
+    },
+    {
+        "bagel": ["Male", "Pompompurin", "Squirrel", 8.16, 1999, ["Brown", "Yellow"]],
+        "DN" : "Bagel"
+    },
+    {
+        "powder": ["Female", "Pompompurin", "Rabbit", 12.12, 1999, ["White"]],
+        "DN" : "Powder"
+    },
+    {
+        "coconut": ["Male", "Pompompurin", "Monkey", 7.02, 2001, ["Brown", "Beige"]],
+        "DN" : "Coconut"
+    },
+    {
+        "tart": ["Male", "Pompompurin", "Rabbit", 10.10, 1999, ["Brown", "White"]],
+        "DN" : "Tart"
+    },
+    {
+        "mint": ["Male", "Pompompurin", "Frog", 6.06, 1999, ["Green"]],
+        "DN" : "Mint"
+    },
+    {
+        "custard": ["Male", "Pompompurin", "Bird", 5.15, 1999, ["Yellow", "Orange"]],
+        "DN" : "Custard"
+    },
+    {
+        "whip": ["Male", "Pompompurin", "Penguin", 6.16, 1999, ["Black", "White"]],
+        "DN" : "Whip"
+    },
+    {
+        "vanilla": ["Male", "Pompompurin", "Bear", 1.03, 1999, ["White", "Orange"]],
+        "DN" : "Vanilla"
+    },
+    {
+        "syrup": ["Male", "Pompompurin", "Bird", 4.04, 2000, ["White", "Black"]],
+        "DN" : "Syrup"
+    },
+    {
+        "macaroon": ["Female", "Pompompurin", "Dog", 3.03, 2011, ["White"]],
+        "DN" : "Macaroon"
+    },
+    {
+        "wishmemell": ["Female", "Wish Me Mell", "Rabbit", 9.20, 2010, ["Pink", "White"]],
+        "DN" : "Wish Me Mell"
+    },
+    {
+        "chico": ["Female", "Wish Me Mell", "Cat", 3.31, 2010, ["Blue", "White"]],
+        "DN" : "Chico"
+    },
+    {
+        "poco": ["Male", "Wish Me Mell", "Bear", 12.03, 2010, ["Blue", "White", "Pink"]],
+        "DN" : "Poco"
+    },
+    {
+        "aro": ["Male", "Wish Me Mell", "Bear", 5.07, 2010, ["Brown", "Beige", "White"]],
+        "DN" : "Aro"
+    },
+    {
+        "nina": ["Female", "Wish Me Mell", "Mythical Creature", 3.02, 2011, ["Green", "Yellow", "White"]],
+        "DN" : "Nina"
+    },
+    {
+        "maimai": ["Female", "Wish Me Mell", "Dog", 10.28, 2010, ["Pink", "Hot Pink"]],
+        "DN" : "Maimai"
+    },
+    {
+        "cinnamoroll": ["Male", "Cinnamoroll", "Dog", 3.06, 2001, ["White"]],
+        "DN" : "Cinnamoroll"
+    },
+    {
+        "poron": ["Female", "Cinnamoroll", "Dog", 6.28, 2015, ["Pink"]],
+        "DN" : "Poron"
+    },
+    {
+        "chiffon": ["Female", "Cinnamoroll", "Dog", 1.14, 2002, ["Beige"]],
+        "DN" : "Chiffon"
+    },
+    {
+        "mocha": ["Female", "Cinnamoroll", "Dog", 2.20, 2002, ["Brown"]],
+        "DN" : "Mocha"
+    },
+    {
+        "espresso": ["Male", "Cinnamoroll", "Dog", 12.04, 2002, ["Beige"]],
+        "DN" : "Espresso"
+    },
+    {
+        "milk": ["Male", "Cinnamoroll", "Puppy", 2.04, 2002, ["White"]],
+        "DN" : "Milk"
+    },
+    {
+        "cappuccino": ["Male", "Cinnamoroll", "Dog", 6.27, 2002, ["Brown", "White"]],
+        "DN" : "Cappuccino"
+    },
+    {
+        "coco": ["Male", "Cinnamoroll", "Dog", 7.25, 2007, ["Beige", "White"]],
+        "DN" : "Coco"
+    },
+    {
+        "nuts": ["Male", "Cinnamoroll", "Dog", 7.25, 2007, ["Beige", "White"]],
+        "DN" : "Nuts"
+    },
+    {
+        "berry": ["Male", "Cinnamoroll", "Mythical Creature", 6.06, 2007, ["Black"]],
+        "DN" : "Berry"
+    },
+    {
+        "cherry": ["Female", "Cinnamoroll", "Mythical Creature", 9.09, 2007, ["Pink", "Black"]],
+        "DN" : "Cherry"
+    },
+    {
+        "azuki": ["Female", "Cinnamoroll", "Dog", 9.25, 2005, ["Beige", "Pink"]],
+        "DN" :  "Azuki"
+    },
+    {
+        "shirotaro": ["Male", "Cinnamoroll", "Cat", 0.0, 2002, ["White"]],
+        "DN" : "Shirotaro"
+    },
+    {
+        "poponen": ["Male", "Cinnamoroll", "Otter", 6.05, 2020, ["Light Blue", "White"]],
+        "DN" : "Poponen"
+    },
+    {
+        "corune": ["Male", "Cinnamoroll", "Unicorn", 0.0, 2015, ["Light Blue", "Pink"]],
+        "DN" : "Corune"
+    },
+    {
+        "mymelody": ["Female", "My Melody", "Rabbit", 1.18, 1975, ["White", "Pink"]],
+        "DN" : "My Melody"
+    },
+    {
+        "mysweetpiano": ["Female", "My Melody", "Sheep", 7.06, 2005, ["White", "Pink"]],
+        "DN" : "My Sweet Piano"
+    },
+    {
+        "kuromi": ["Female", "My Melody", "Rabbit", 10.31, 2005, ["Black", "White"]],
+        "DN" : "Kuromi"
+    },
+    {
+        "hanamaruobake": ["Male", "NEXT KAWAII PROJECT", "Mythical Creature", 8.07, 2023, ["White"]],
+        "DN" : "Hanamaruobake"
+    },
+    {
+        "cogimyun": ["Female", "Cogimyun", "Cogimuna", 5.07, 2015, ["White"]],
+        "DN" : "Cogimyun"
+    },
+    {
+        "ebifurai": ["Male", "Cogimyun", "Food", 0.0, 2015, ["Golden", "Red"]],
+        "DN" : "Ebifurai"
+    }
+
+
+
+    ],
+    "propertynames": ["gender", "name", "species", "birthday", "debut", "colors"]
+ }
